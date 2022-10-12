@@ -9,7 +9,7 @@ public class quadraticValue {
         Scanner scanner = new Scanner(System.in);
         //ax^2 + bx + c = 0;
         System.out.println("Enter your variable: "); //
-        String x = scanner.next();
+        String x = scanner.nextLine();
 
         System.out.println("Enter your a: ");
         int a = scanner.nextInt();
@@ -21,8 +21,10 @@ public class quadraticValue {
         double x1 = (b + sqrt((b * b) - 4 * a * c)) / 2*a;
         double x2 = (b - sqrt((b * b) - 4 * a * c)) / 2*a;
 
+        System.out.println(a + x+"^2" + " + " + b+x+ " + " + c + " = 0;");
         System.out.println(x1);
         System.out.println(x2);
+        System.out.println(x);
 
     }
 }
