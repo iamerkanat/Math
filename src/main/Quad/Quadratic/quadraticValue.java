@@ -24,7 +24,7 @@ public class quadraticValue {
         System.out.println(a + x+"^2" + " + " + b+x+ " + " + c + " = 0;");
         System.out.println(x1);
         System.out.println(x2);
-        System.out.println(x); //
+
 
     }
 }
